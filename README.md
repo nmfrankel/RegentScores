@@ -1,2 +1,2 @@
 # RegentScores
-School uploads scores and students access their score with thier last name and student id
+School uploads scores and students access their score by providing their last name and student id
