@@ -1,0 +1,21 @@
+DB NAME: regentScore
+
+Table name: regent
+	id - Primary Key, auto_increment
+	subject			regent subject name
+	date			unix timestamp of regent start time
+
+Table name: users
+	id - Primary Key, auto_increment
+	status			0 -> disabled/owes books; 1 -> admin; 2 -> student
+	first			users first name
+	last			users last name
+	dob				unix timestamp of users date of birth
+	student_id		users school given student_id
+	authToken		temp code that is generated every login and is set to $_SESSION[authToken]
+
+Table name: scores
+	id - Primary Key, auto_increment
+	student			students id in the users table
+	test_id			regent test id
+	grade			users regent score; -1 -> an error occured
