@@ -13,5 +13,5 @@ Password: ``password``
 
 * Create and interact with a mySQL database
 * Developed an API to communicate between the front-end and back-end
-* Authenticate users and then give them access based on their user privileges, i.e. Admin and basic rights
-* User status: the ability for school to prevent a single student from temporarily seeing their scores
+* Authenticate users and then give them access based on their user privileges, i.e. Admin and Basic
+* User status: the ability for a school to prevent a student(s) from temporarily seeing their scores
