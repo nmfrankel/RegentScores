@@ -1,6 +1,8 @@
+# PROJECT IN PROGRESS
+
 # RegentScores
 
-A web-app built for my high-school to post students regent online where parents/students can view them right away.
+A web-app built for my high-school to post students regent scores online where parents/students can view them right away.
 
 Default admin user credentials  
 Username: ``username``  
@@ -11,5 +13,5 @@ Password: ``password``
 
 * Create and interact with a mySQL database
 * Developed an API to communicate between the front-end and back-end
-* Authenticate users and then only have limited-access for the system... Admin -> admin access; Parent/Student -> student access
-* User status, the ability for school to prevent student from seeing their score temporarily
+* Authenticate users and then give them access based on their user privileges, i.e. Admin and basic rights
+* User status: the ability for school to prevent a single student from temporarily seeing their scores
