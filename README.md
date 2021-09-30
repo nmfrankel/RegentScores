@@ -1,17 +1,40 @@
-# PROJECT IN PROGRESS
+## UPDATE | In Progress
+
+I plan to update this project and have optimize it in the future. Expected finish date: 1/1/2022
+
+<pre>
+||\\   ||\\   //||||||||  
+|| \\  || \\ // ||  
+||  \\ ||  \\/  |||||  
+||   \\||       ||  
+
+	NOSSON M FRANKEL
+	nossonmfrankel@gmail.com
+	ALL RIGHTS RESERVED, © 2020
+</pre>
 
 # RegentScores
+This is a blackboard web-app I built for my high-school to post and host our regent scores online.
 
-A web-app built for my high-school to post students regent scores online where parents/students can view them right away.
+## Benefits
+-	The basic benefit of such a system is that parents/students can veiw their (childs') scores as soon as they become available.
+-	Additionally, with such a system the facilty get harassed for scores at a significantly lower rate.
 
-Default admin user credentials  
-Username: ``username``  
-Password: ``password``  
-* change this in ``regentScore.sql`` under ``INSERT INTO 'users'``  
+## Setup
+1.	Configure your database's credentials in ``./Setup/regentScore.sql`` under ``INSERT INTO 'users'``.
+2.	Host the current folder on a server and open ``./Setup/index.php`` to create the required database.
+* For security purposes keep the ``setup`` folders online __ONLY__ as needed.
+
+Default admin user credentials
+Username: ``username``
+Password: ``password``
 
 ## What I Exercised/Learned
-
-* Create and interact with a mySQL database
-* Developed an API to communicate between the front-end and back-end
-* Authenticate users and then give them access based on their user privileges, i.e. Admin and Basic
-* User status: the ability for a school to prevent a student(s) from temporarily seeing their scores
+-	Create and interact with a **mySQL database**.
+-	Developed a **RESTful API** to communicate between the front-end and back-end.
+-	**Authenticate users** to have limited-privilages for the system...
+```
+	Admin -> admin access
+	Parent/Student -> student access
+```
+-	The school can **lockout a user** to block the Parent/Student from seeing their score temporarily.
