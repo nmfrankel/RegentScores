@@ -1,4 +1,4 @@
-## UPDATE | In Progress
+## UPDATE In Progress
 
 I plan to update this project and optimize it in the future. **Expected finish date: 1/1/2022**
 
@@ -17,22 +17,25 @@ I plan to update this project and optimize it in the future. **Expected finish d
 
 This is a blackboard web-app I built for my high-school to post and host our regent scores online.
 
+<!-- ## Project backstory
+
+**coming soon** -->
+
 ## Benefits
 
--	The basic benefit of such a system is that parents/students can veiw their (childs') scores as soon as they become available.
--	Additionally, with such a system the facilty get harassed for scores at a significantly lower rate.
+The basic benefit of such a system is that parents/students can veiw their (childs') scores as soon as they become available. Additionally, with such a system the facilty get harassed for scores at a significantly lower rate.
 
 ## Setup
 
-*	Details and walk thorugh coming soon
+**Details and walk thorugh coming soon**
 
 ## What I Exercised/Learned
 
--	Create and interact with a **mySQL database**.
--	Developed a **RESTful API** to communicate between the front-end and back-end.
+-	Create and interact with a **SQL database**.
+-	Developed a **REST API** to communicate between the front and backend.
 -	**Authenticate users** to have limited-privilages for the system...
 ```
-	Admin -> admin access
-	Parent/Student -> student access
+	Admin -> admin access to insert scores and block users
+	Parent/Student -> student access with the ability to view their scores
 ```
--	The school can **lockout a user** to block the Parent/Student from seeing their score temporarily.
+-	The admin can **lockout a user** to block the Parent/Student from seeing their score until they contact the school.
