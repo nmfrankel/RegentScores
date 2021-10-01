@@ -12,11 +12,19 @@
 	<header>Login</header>
 
 	<main>
-		
-		
-
-
-
+		<form action="POST" onsubmit="login(event)">
+			<div class="inputContainer">
+				<input type="email" name="email" id="email" autocomplete="email" class="default">
+				<label for="email">Email</label>
+				<div class="border"></div>
+			</div>
+			<div class="inputContainer">
+				<input type="password" name="pswd" id="pswd" autocomplete="password" class="default">
+				<label for="pswd">Password</label>
+				<div class="border"></div>
+			</div>
+			<input type="submit" value="Login">
+		</form>	
 	</main>
 
 	<section id="loadingContainer" class="doubleCenter">

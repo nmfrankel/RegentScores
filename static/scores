@@ -1,0 +1,24 @@
+{
+  "first": "Nosson M",
+  "last": "Frankel",
+  "student_id": "20XXX0003",
+  "scores": [
+    {
+      "subject": "Language",
+      "date": "Tomorrow",
+      "grade": null
+    },{
+      "subject": "Earth Science",
+      "date": "Today",
+      "grade": "59"
+    },{
+      "subject": "Geometry",
+      "date": "Monday",
+      "grade": "90"
+    },{
+      "subject": "History I",
+      "date": "Last Tuesday",
+      "grade": "86"
+    }
+  ]
+}

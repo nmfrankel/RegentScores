@@ -1,8 +1,9 @@
-const userInfo = document.getElementById('userInfo'),
+const useLive = window.location.host === '127.0.0.1',
+userInfo = document.getElementById('userInfo'),
 scoresContainer = document.getElementById('scoresContainer')
 
 const displayLoadError = () => {
-	userInfo.innerText = `Undefined ('Error: 0xC3')`
+	userInfo.innerText = `Undefined (Error: 0xC3)`
 	while (scoresContainer.children[1]) scoresContainer.children[1].remove()
 	scoresContainer.classList.remove('loading')
 }
@@ -10,7 +11,7 @@ const displayLoadError = () => {
 const fetchScores = () => {
 	scoresContainer.classList.add('loading')
 
-	fetch('./api/scores')
+	fetch('./'+(useLive? 'static': 'api')+'/scores')
 		.then(res => {
 			if(res.status >= 200 && res.status <= 299) return res.json()
 
@@ -28,8 +29,10 @@ const fetchScores = () => {
 
 				entry.querySelector('.title').innerText = scoreData.subject
 				entry.querySelector('.date').innerText = scoreData.date
-				entry.querySelector('.score').classList.add(gradeRating)
-				entry.querySelector('.score').innerText = scoreData.grade
+				if(scoreData.grade != null){
+					entry.querySelector('.score').classList.add(gradeRating)
+					entry.querySelector('.score').innerText = scoreData.grade
+				}
 			})
 		})
 		.catch(err => {

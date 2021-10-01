@@ -1,0 +1,6 @@
+{
+	"loggedIn": 1,
+	"msg": "User logged in successfully",
+	"errCode": 0,
+	"redirect": "./scores"
+}

@@ -1,7 +1,5 @@
-# .gitignore
+.gitignore
 TODO.md
+loading.png
 
-setup/
-Ver1/
-Ver2/
-temp/
+old/

@@ -1,6 +1,7 @@
 ## UPDATE In Progress
 
 I plan to update this project and optimize it in the future. **Expected finish date: 1/1/2022**
+-	All backend is currently laoding static files
 
 <pre>
 ||\\   ||\\   //||||||||  

@@ -1,0 +1,3 @@
+# load files from static folder until backend is built
+RewriteEngine On
+RewriteRule (.*) ../static/$1 [L]
