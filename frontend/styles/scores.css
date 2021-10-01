@@ -25,9 +25,6 @@
 	font-size: 1.25rem;
 	margin: 0 1.25rem .5rem 0;
 }
-.entry .title::after{
-	content: ' regent';
-}
 .entry .date{
 	width: 150px;
 	font-size: 14px;

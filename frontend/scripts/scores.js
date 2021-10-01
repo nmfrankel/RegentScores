@@ -13,7 +13,9 @@ const fetchScores = () => {
 	fetch('./api/scores')
 		.then(res => {
 			if(res.status >= 200 && res.status <= 299) return res.json()
-			throw Error(res)
+
+			console.error(err)
+			throw Error(res.statusText)
 		})
 		.then(json => {
 			userInfo.innerText = `${json.first} ${json.last} (${json.student_id})`
@@ -31,7 +33,6 @@ const fetchScores = () => {
 			})
 		})
 		.catch(err => {
-			console.error(err)
 			displayLoadError()
 		})
 }
