@@ -1,0 +1,20 @@
+{
+  "first": "Nosson Meir",
+  "last": "Frankel",
+  "student_id": "20XXX0003",
+  "scores": [
+    {
+      "subject": "Earth Science",
+      "date": "Today",
+      "grade": "60"
+    },{
+      "subject": "Geometry",
+      "date": "Monday",
+      "grade": "90"
+    },{
+      "subject": "History I",
+      "date": "Last Tuesday",
+      "grade": "86"
+    }
+  ]
+}

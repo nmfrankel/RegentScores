@@ -1,0 +1,77 @@
+@import url('./main.css');
+
+#title{
+	text-align: center;
+    padding-bottom: 2rem;
+    font-size: 1.25rem;
+	line-height: 1.4;
+}
+.entry{
+	position: relative;
+	margin: 0 auto 1.75rem;
+	padding: .75rem 4.25rem .75rem .75rem;
+	box-shadow:
+		0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+		0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+		0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+	border-radius: 12px;
+	color: #33353b;
+}
+.entry.hidden{
+	display: none;
+}
+.entry .title{
+	min-width: 250px;
+	font-size: 1.25rem;
+	margin: 0 1.25rem .5rem 0;
+}
+.entry .title::after{
+	content: ' regent';
+}
+.entry .date{
+	width: 150px;
+	font-size: 14px;
+	color: #929ba7;
+}
+.score{
+	position: absolute;
+	top: .66rem;
+	right: 10px;
+	height: 1.66rem;
+	width: 3.5rem;
+	padding: 12px 0;
+	text-align: center;
+	background-color: #eff3f7;
+	font-size: 1.33rem;
+	border-radius: 8px;
+	transition: all ease-out 150ms;
+}
+.score.pass{
+	background-color: #7ae07f;
+}
+.score.warning{
+	background-color: #fbd973;
+}
+.score.fail{
+	background-color: #ee6c62;
+	color: white;
+}
+.loading .title, .loading .date, .loading .score{
+	color: transparent;
+	background: linear-gradient(315deg, #eff3f7 25%, #f9fafc, #eff3f7 55%);
+	background-size: 300% 100%;
+	background-position-x: 0%;
+	animation: shine 2.5s ease-in-out 0ms infinite;
+	border-radius: 6px;
+	user-select: none;
+	animation: loadingFade 2s ease-in-out 0s infinite;
+}
+.loading .entry.hidden:nth-child(-1n+5){
+	display: block;
+}
+
+@keyframes loadingFade {
+	100%{
+		background-position-x: -150%;
+	}
+}

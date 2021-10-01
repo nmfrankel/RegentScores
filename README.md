@@ -1,6 +1,6 @@
 ## UPDATE | In Progress
 
-I plan to update this project and have optimize it in the future. Expected finish date: 1/1/2022
+I plan to update this project and optimize it in the future. **Expected finish date: 1/1/2022**
 
 <pre>
 ||\\   ||\\   //||||||||  
@@ -14,22 +14,20 @@ I plan to update this project and have optimize it in the future. Expected finis
 </pre>
 
 # RegentScores
+
 This is a blackboard web-app I built for my high-school to post and host our regent scores online.
 
 ## Benefits
+
 -	The basic benefit of such a system is that parents/students can veiw their (childs') scores as soon as they become available.
 -	Additionally, with such a system the facilty get harassed for scores at a significantly lower rate.
 
 ## Setup
-1.	Configure your database's credentials in ``./Setup/regentScore.sql`` under ``INSERT INTO 'users'``.
-2.	Host the current folder on a server and open ``./Setup/index.php`` to create the required database.
-* For security purposes keep the ``setup`` folders online __ONLY__ as needed.
 
-Default admin user credentials
-Username: ``username``
-Password: ``password``
+*	Details and walk thorugh coming soon
 
 ## What I Exercised/Learned
+
 -	Create and interact with a **mySQL database**.
 -	Developed a **RESTful API** to communicate between the front-end and back-end.
 -	**Authenticate users** to have limited-privilages for the system...
