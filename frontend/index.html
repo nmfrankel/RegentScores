@@ -11,8 +11,9 @@
 <body>
 	<header>Login</header>
 
-	<main>
-		<form action="POST" onsubmit="login(event)">
+	<form action="POST" onsubmit="login(event)">
+		<main class="doubleCenter">
+			<h3 style="margin: 0;padding-bottom: 3.5rem;">Access your scores</h3>
 			<div class="inputContainer">
 				<input type="email" name="email" id="email" autocomplete="email" class="default">
 				<label for="email">Email</label>
@@ -24,8 +25,8 @@
 				<div class="border"></div>
 			</div>
 			<input type="submit" value="Login">
-		</form>	
-	</main>
+		</main>
+	</form>
 
 	<section id="loadingContainer" class="doubleCenter">
 		<div id="loader"></div>

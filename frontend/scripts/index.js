@@ -7,6 +7,7 @@ const login = (e) => {
 
 	// validate form
 	// validate form
+	if(document.forms[0].checkValidity()) console.log('Form not filled')
 
 	// prepare fetch data
 	const data = {

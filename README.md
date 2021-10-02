@@ -1,7 +1,10 @@
 ## UPDATE In Progress
 
 I plan to update this project and optimize it in the future. **Expected finish date: 1/1/2022**
--	All backend is currently laoding static files
+-	The web-app is currently loading static files on the backend
+  
+  
+
 
 <pre>
 ||\\   ||\\   //||||||||  
@@ -35,8 +38,9 @@ The basic benefit of such a system is that parents/students can veiw their (chil
 -	Create and interact with a **SQL database**.
 -	Developed a **REST API** to communicate between the front and backend.
 -	**Authenticate users** to have limited-privilages for the system...
-```
-	Admin -> admin access to insert scores and block users
-	Parent/Student -> student access with the ability to view their scores
-```
+>	Admin -> admin access to insert scores and block users
+>	Parent/Student -> student access with the ability to view their scores
 -	The admin can **lockout a user** to block the Parent/Student from seeing their score until they contact the school.
+
+<!-- ## Resources
+https://dribbble.com/shots/4034991-New-Exciting-Project-Splash-Screen -->
