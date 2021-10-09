@@ -29,9 +29,17 @@ This is a blackboard web-app I built for my high-school to post and host our reg
 
 The basic benefit of such a system is that parents/students can veiw their (childs') scores as soon as they become available. Additionally, with such a system the facilty get harassed for scores at a significantly lower rate.
 
-## Setup
+## Getting Started
 
-**Details and walk thorugh coming soon**
+The `/fronend` directory contains all the files run on the browser, i.e. `.html`, `.css`, `.js` and `.png` are some examples.
+The `/api` directory contains all the files to run the web-app normally on [a setup]() server.
+The `/static` directory contains a snapshot of a server for use without setting up a database. The `/static` directory is used when accessed from `http://127.0.0.1/`, __not__ `http://localhost/`.
+
+**Full details and walk thorugh coming soon**
+
+## Cool Feature Ideas
+
+- Exmples coming sooo
 
 ## What I Exercised/Learned
 
