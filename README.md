@@ -29,7 +29,7 @@ This is a blackboard web-app I built for my high-school to post and host our reg
 
 The obvious benefit of such a system is that parents/students can veiw their (childs') scores as soon as they become available. Additionally, with such a system the facilty get harassed for scores at a significantly lower rate.
 
-## Files Layout Overview
+## Files Layout
 
 The `/fronend` directory contains all the files run on the browser, i.e. `.html`, `.css`, `.js` and `.png` are some examples.  
 The `/api` directory contains all the files to run the web-app normally on [a setup](#getting-started) server.  
